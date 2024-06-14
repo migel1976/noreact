@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>No React</title>
+    </head>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        body{
+            padding-top: 5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            padding: 1rem;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+        }
+        li:hover{
+            background-color: #eee;
+        }
+
+        li > .content{
+            display: none;
+        }
+
+        li.active{
+            background-color: rgb(255, 255, 91);
+        }
+
+        li.active > .content{
+            display: block;
+        }
+
+    </style>
+    <body>
+        <ul>
+
+        </ul>
+        <script src="script.js"></script>
+    </body>
+</html>
